@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.scottlabs.reManager</id>
+  <name>reManager</name>
+  <summary>Manage mods on reMarkable tablets</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <developer id="io.scottlabs">
+    <name>Mitchell Scott</name>
+  </developer>
+  <description>
+    <p>
+      A multi-platform desktop app for managing mods on reMarkable tablets.
+      Powered by the Vellum package manager.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Multi-Device Management: Save multiple sets of SSH credentials with password or key-based authentication</li>
+      <li>Package Management: Browse, install, upgrade, and uninstall packages with automatic dependency resolution</li>
+      <li>Maintenance Tools: Enable/disable auto-updates, set timezone, run package-provided scripts</li>
+      <li>Interactive Terminal: Access a complete shell session on your reMarkable</li>
+      <li>File Browser: Browse filesystem, transfer files to and from your reMarkable</li>
+      <li>Backup and Restore: Backup and restore document library and configuration</li>
+      <li>Configuration Editor: Edit system configuration files with syntax highlighting</li>
+    </ul>
+  </description>
+  <url type="homepage">https://github.com/rmitchellscott/reManager</url>
+  <url type="bugtracker">https://github.com/rmitchellscott/reManager/issues</url>
+  <url type="vcs-browser">https://github.com/rmitchellscott/reManager</url>
+  <url type="donation">https://buymeacoffee.com/rmitchellscott</url>
+  <launchable type="desktop-id">io.scottlabs.reManager.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/rmitchellscott/reManager/main/assets/screenshot-linux-light.png</image>
+      <caption>Main application window</caption>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="1.0.3" date="2026-01-23">
+      <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v1.0.3</url>
+    </release>
+    <release version="1.0.2" date="2026-01-22">
+      <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v1.0.2</url>
+    </release>
+    <release version="1.0.1" date="2026-01-22">
+      <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v1.0.1</url>
+    </release>
+    <release version="1.0.0" date="2026-01-22">
+      <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v1.0.0</url>
+    </release>
+  </releases>
+  <branding>
+    <color type="primary" scheme_preference="light">#f5f5f5</color>
+    <color type="primary" scheme_preference="dark">#1a1a1a</color>
+  </branding>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
+  <requires>
+    <display_length compare="ge">768</display_length>
+  </requires>
+</component>
