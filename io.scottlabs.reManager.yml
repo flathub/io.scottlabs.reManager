@@ -34,13 +34,12 @@ modules:
         ./wails build -tags webkit2_41 -m -nosyncgomod -ldflags "-X main.version=$(git describe --tags --always)"
       - install -Dm755 build/bin/reManager /app/bin/reManager
       - install -Dm644 flatpak/io.scottlabs.reManager.desktop /app/share/applications/io.scottlabs.reManager.desktop
-      - install -Dm644 flatpak/io.scottlabs.reManager.metainfo.xml /app/share/metainfo/io.scottlabs.reManager.metainfo.xml
+      - install -Dm644 io.scottlabs.reManager.metainfo.xml /app/share/metainfo/io.scottlabs.reManager.metainfo.xml
       - install -Dm644 assets/icon.svg /app/share/icons/hicolor/scalable/apps/io.scottlabs.reManager.svg
-      - install -Dm644 LICENSE /app/share/licenses/io.scottlabs.reManager/LICENSE
     sources:
       - type: git
-        url: https://github.com/rmitchellscott/reManager.git
-        tag: v1.0.3
-        commit: 1579314f56e96d4c9fe6a7e8aa9005a8ec45a395
+    url: https://github.com/rmitchellscott/reManager.git
+    tag: v1.0.4-test
+    commit: fa56343484506f1e351076c75b0e165843271e75
       - node-sources.json
       - go-sources.yml
