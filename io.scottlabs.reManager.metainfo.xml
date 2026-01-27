@@ -35,6 +35,12 @@
   </screenshots>
   <content_rating type="oars-1.1"></content_rating>
   <releases>
+    <release version="1.0.6" date="2026-01-27">
+      <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v1.0.6</url>
+    </release>
+    <release version="1.0.5" date="2026-01-24">
+      <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v1.0.5</url>
+    </release>
     <release version="1.0.4" date="2026-01-24">
       <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v1.0.4</url>
     </release>
