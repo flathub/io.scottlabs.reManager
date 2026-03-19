@@ -12,6 +12,7 @@ finish-args:
   - --socket=wayland
   - --device=dri
   - --share=network
+  - --socket=ssh-auth
   - --filesystem=~/.ssh:ro
 build-options:
   append-path: /usr/lib/sdk/golang/bin:/usr/lib/sdk/node20/bin
@@ -36,8 +37,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/rmitchellscott/reManager.git
-        tag: v1.1.4
-        commit: ef434b0a9c1a9b75f267f4a80a4e0d98469aba4f
+        tag: v1.1.5
+        commit: b6edfeb6f281b7d71bbb9bc2ed67d2803352ddc1
       - type: file
         path: io.scottlabs.reManager.metainfo.xml
       - node-sources.json
