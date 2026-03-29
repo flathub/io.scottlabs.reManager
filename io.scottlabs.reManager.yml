@@ -37,8 +37,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/rmitchellscott/reManager.git
-        tag: v1.2.3
-        commit: d6501c95176c65e75bb923966ffdf6a846f1f89a
+        tag: v1.2.4
+        commit: 3c2e6a038e1c1c5f140e046c0f843338e49dd412
       - type: file
         path: io.scottlabs.reManager.metainfo.xml
       - node-sources.json
