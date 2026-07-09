@@ -35,6 +35,9 @@
   </screenshots>
   <content_rating type="oars-1.1"></content_rating>
   <releases>
+    <release version="1.6.2" date="2026-07-09">
+      <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v1.6.2</url>
+    </release>
     <release version="1.6.1" date="2026-06-24">
       <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v1.6.1</url>
     </release>
