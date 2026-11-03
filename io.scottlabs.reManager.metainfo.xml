@@ -49,14 +49,18 @@
   <releases>
     <release version="2.0.0" date="2026-11-03">
       <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v2.0.0</url>
-      <description>reManager 2.0 is a full redesign, now on iPhone, iPad, and Android.
-• Discover mods by category, popularity, and developer, and search the whole catalog
-• Star mods and follow developers
-• Review installs, upgrades, and removals together, then apply once
-• The System tab shows what needs attention, with the fix beside it
-• Guided steps after a reMarkable OS update
-• Store SSH keys in the app
-• Jobs keep running in the background</description>
+      <description>
+        <p>reManager 2.0 is a full redesign, now on iPhone, iPad, and Android.</p>
+        <ul>
+          <li>Discover mods by category, popularity, and developer, and search the whole catalog</li>
+          <li>Star mods and follow developers</li>
+          <li>Review installs, upgrades, and removals together, then apply once</li>
+          <li>The System tab shows what needs attention, with the fix beside it</li>
+          <li>Guided steps after a reMarkable OS update</li>
+          <li>Store SSH keys in the app</li>
+          <li>Jobs keep running in the background</li>
+        </ul>
+      </description>
     </release>
     <release version="1.7.4" date="2026-09-03">
       <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v1.7.4</url>
