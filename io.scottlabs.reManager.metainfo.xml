@@ -47,20 +47,26 @@
   </screenshots>
   <content_rating type="oars-1.1"></content_rating>
   <releases>
+    <release version="2.0.1" date="2026-11-14">
+      <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v2.0.1</url>
+      <description><ul>
+<li>Tripletap prompt wording</li>
+<li>Mod detail button layout on narrow screens</li>
+<li>Show implied upgrades in Changes</li>
+<li>Add upload ability to sleep screen status picker</li>
+<li>Show Browse mods on the connect screen when no reMarkables are saved</li>
+<li>Show network address and backup names in the support bundle preview</li>
+<li>Import documents to temp storage</li>
+<li>Retry the plan check against a fresh package index on &#34;no such package&#34;</li>
+<li>Size terminal output from wrapped rows on narrow screens</li>
+<li>Drop unavailable LC_* locales so the flatpak starts with mixed host locales</li>
+<li>Speed up file transfers</li>
+<li>Interactive terminal clipping its last row</li>
+<li>Disable Connect with no IP address</li>
+</ul></description>
+    </release>
     <release version="2.0.0" date="2026-11-03">
       <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v2.0.0</url>
-      <description>
-        <p>reManager 2.0 is a full redesign, now on iPhone, iPad, and Android.</p>
-        <ul>
-          <li>Discover mods by category, popularity, and developer, and search the whole catalog</li>
-          <li>Star mods and follow developers</li>
-          <li>Review installs, upgrades, and removals together, then apply once</li>
-          <li>The System tab shows what needs attention, with the fix beside it</li>
-          <li>Guided steps after a reMarkable OS update</li>
-          <li>Store SSH keys in the app</li>
-          <li>Jobs keep running in the background</li>
-        </ul>
-      </description>
     </release>
     <release version="1.7.4" date="2026-09-03">
       <url type="details">https://github.com/rmitchellscott/reManager/releases/tag/v1.7.4</url>
